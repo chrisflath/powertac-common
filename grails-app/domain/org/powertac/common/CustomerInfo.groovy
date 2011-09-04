@@ -49,7 +49,7 @@ class CustomerInfo //implements Serializable
   Integer population = 1
 
   /** gives the available power classifications of the customer */
-  List<PowerType> powerTypes = [PowerType.CONSUMPTION, PowerType.PRODUCTION]
+  List<PowerType> powerTypes = [PowerType.CONSUMPTION]
   
   /** describes whether or not this customer engages in multiple contracts at the same time */
   @XStreamAsAttribute
